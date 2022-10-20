@@ -26,7 +26,7 @@ public class Browser {
     }
 
     private void Initialise(String browser) {
-        capabilities = new DesiredCapabilities();
+        capabilities = new DesiredCapabilities();     
         seleniumFolderPath = System.getProperty("user.home") + "/Documents/umservices/selenium3/";
 
         switch (browser) {
